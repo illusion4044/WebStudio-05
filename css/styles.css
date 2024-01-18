@@ -699,3 +699,16 @@ margin-bottom: 4px;
     fill: #FFFFFF;
 }
 
+.modal-button{
+width: 169px;
+height: 56px;
+border-radius: 4px;
+background:  #4D5AE5;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.04em;
+justify-content: center;
+}
+
