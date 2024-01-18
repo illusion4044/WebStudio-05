@@ -681,6 +681,19 @@ margin-bottom: 8px;
 color: #2E2F4266;
 }
 
+.modal-input::placeholder{
+    color: #8E8F99;
+}
+
+.modal-label{
+display: block;
+color: #8E8F99;
+font-size: 12px;
+line-height: normal;
+letter-spacing: 0.04em;
+margin-bottom: 4px;
+}
+
 .modal-close-btn:hover > .modal-close-icon,
 .modal-close-btn:focus > .modal-close-icon{
     fill: #FFFFFF;
