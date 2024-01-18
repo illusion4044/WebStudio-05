@@ -678,6 +678,7 @@ letter-spacing: 0.02em;
 height: 40px;
 border-radius: 4px;
 margin-bottom: 8px;
+color: #2E2F4266;
 }
 
 .modal-close-btn:hover > .modal-close-icon,
