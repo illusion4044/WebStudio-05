@@ -736,6 +736,7 @@ line-height: 1.5px;
 letter-spacing: 0.04em;
 justify-content: center;
 margin-top: 24px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .modal-text{
@@ -759,7 +760,6 @@ color:  #8E8F99;
 font-size: 12px;
 font-style: normal;
 letter-spacing: 0.04em;
-gap: 8px;
 display: flex;
 align-items: center;
 }
@@ -780,8 +780,7 @@ height: 16px;
 stroke-width: 1px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 border-radius: 2px;
-
-
+margin-right: 8px;
 }
 
 .check-input:checked + .check-text span{
