@@ -781,9 +781,11 @@ stroke-width: 1px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 border-radius: 2px;
 
+
 }
 
 .check-input:checked + .check-text span{
     background-color: #404BBF;
     border: none;
+    fill: #F4F4FD;
 }
