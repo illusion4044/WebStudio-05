@@ -768,6 +768,7 @@ border: 1px solid #2E2F4266;
 fill: #4D5AE5;
 padding-left: 38px;
 outline: transparent;
+background-color: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
