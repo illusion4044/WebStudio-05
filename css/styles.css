@@ -607,7 +607,8 @@ margin-bottom: 16px;
     margin-left: 80px;
 }
 .footer-form {
-    
+    align-items: center;
+    justify-content: center;
 }
 .footer-input {
     width: 264px;
@@ -617,8 +618,7 @@ border-radius: 4px;
 border: 1px solid  #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: #2E2F42;
-
-
+margin-right: 16px;
 }
 
 .footer-input::placeholder{
