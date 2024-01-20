@@ -742,6 +742,10 @@ padding-bottom: 16px;
     
 }
 
+.field-form{
+    position: relative;
+}
+
 .modal-icon{
     position: absolute;
     stroke: #2E2F42;
