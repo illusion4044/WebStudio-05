@@ -557,7 +557,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 margin-bottom: 16px;
 }
 
@@ -601,6 +600,51 @@ margin-bottom: 16px;
 .link-footer:hover, 
 .link-footer:focus{
     background-color: #31d0aa; 
+    
+}
+
+.footer-subscribe {
+    margin-left: 80px;
+}
+.footer-form {
+    
+}
+.footer-input {
+    width: 264px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid  #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: #2E2F42;
+
+}
+
+.footer-input::placeholder{
+    color: #FFF;
+font-size: 12px;
+line-height: 2px;
+letter-spacing: 0.04em;
+padding-left: 16px;
+}
+
+.footer-subscribe-button{
+    width: 165px;
+    height: 40px;
+display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+border: 1px solid  #4D5AE5;
+background-color: #4D5AE5;
+color: #FFFFFF;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-button:hover{
+    background-color: #404BBF;
     
 }
 
@@ -673,6 +717,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
+padding-bottom: 16px;
 }
 
 .modal-field{
@@ -737,7 +782,15 @@ line-height: 1.5px;
 letter-spacing: 0.04em;
 justify-content: center;
 margin-top: 24px;
+margin-bottom: 24px;
+margin-left: 120px;
+margin-right: 119px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover{
+    background-color: #404BBF;
 }
 
 .modal-text{
