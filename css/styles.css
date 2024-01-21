@@ -758,18 +758,20 @@ padding-bottom: 16px;
 .modal-icon{
     position: absolute;
     stroke: #2E2F42;
+    
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .modal-input{
     width: 100%;
 height: 40px;
 border-radius: 4px;
 border: 1px solid #2E2F4266;
-fill: #4D5AE5;
+
 padding-left: 38px;
 outline: transparent;
 background-color: transparent;
@@ -785,7 +787,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus + .modal-icon{
-    stroke: #4D5AE5;
+    fill: #4D5AE5;
     }
 
 .modal-label{
